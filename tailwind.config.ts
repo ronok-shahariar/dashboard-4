@@ -9,9 +9,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        sidebar: {
+          active: "#6b32ec", // Text color for active state
+          background: "#f5f5ff", // Background color
+          iconColor: "#636c80", // Default text color
+        },
       },
+      
     },
   },
   plugins: [],
